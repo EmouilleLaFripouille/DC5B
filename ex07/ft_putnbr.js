@@ -2,7 +2,6 @@ function combination(number) {
   let result = [];
   let numberStr = number.toString();
   
-  /// Je ne suis pas sûre de tout comprendre, je sais qu'il s'agit de récursion et que ça permet d'effectuer les permutations une après l'autre, mais c'est du code récupéré sur internet qui fait ce que j'attends
   function permutate(arr, m = []) {
     if (arr.length === 0) {
       result.push(m.join(''))
